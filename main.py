@@ -195,7 +195,7 @@ class helpcommand(menus.Menu):
 
 
 client = commands.Bot(command_prefix = "+", help_command=None, intents=discord.Intents.all())
-TOKEN = 'ODIwNTcwOTE0ODMxODU5NzEy.YE3GNw.jZYQYgV2OYSV2KAlM-TfJTkZ8Q8'
+TOKEN = 'ODIwNTcwOTE0ODMxODU5NzEy.YE3GNw.jZYQYgV2OYSV2KAlM-TfJTkZ8Q8' #real token doe no leak or bot is ded 💀
 
 
 themainshop = [{"displayname":"🧻 Toilet Paper","name":"toilet_paper","price":1000,"description":"Work as Toilet Paper Handler!","workcom":"+work Toilet Paper"},
@@ -1350,7 +1350,7 @@ async def woah(ctx):
 
 @client.command()
 async def reverse(ctx, *, reversed):
-    if "ereh@" in reversed or "enoyreve@" in reversed:
+    if "@<" in reversed or "ereh@" in reversed or "enoyreve@" in reversed:
         await ctx.send("imagine trying to exploit bugs, couldn't be mako smh.")
     else:
         reverses = reversed[::-1]
