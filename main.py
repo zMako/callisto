@@ -489,7 +489,7 @@ async def h(ctx):
 @client.command(aliases=['Plyut'])
 async def plyut(ctx, user : discord.Member=None):
     if user == None:
-        await ctx.send(f'Plyut is best, worship plyut, if you dont worship plyut, you will banned')
+        await ctx.send(f'Plyut is best, worship plyut, if you dont worship plyut, you will banned, also h')
     else:
         await ctx.send(f'{user.mention}, plyut is best, worship plyut, if you dont worship plyut, you will banned')
 
