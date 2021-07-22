@@ -423,7 +423,7 @@ async def chkl(ctx):
 
 @client.command()
 async def callisto(ctx):
-    await ctx.send('Callisto means "The most beautiful"')
+    await ctx.send('Callisto means "The most beautiful", (its accurate!!')
 
 @client.command()
 async def servercount(ctx):
@@ -480,6 +480,7 @@ async def qlaudie(ctx):
 
 @client.command()
 async def bluejay(ctx):
+    await ctx.send(f'birb')
     await ctx.send(f"https://cdn.discordapp.com/attachments/817709756646817794/826354173762600970/sfw_fixed_01-29-2011-223.jpg")
 
 @client.command(aliases=['H'])
@@ -497,7 +498,8 @@ async def plyut(ctx, user : discord.Member=None):
 async def blurjay(ctx):
     await ctx.send(f'syop insluting bluejay.')
     await ctx.send(f'fuck off you shit')
-
+    await ctx.send(f'Respect our lord high master bluejay')
+    
 @client.command()
 async def coinflip(ctx):
     rn = random.randint(1, 2)
@@ -526,7 +528,7 @@ async def hackme(ctx):
 
 @client.command(aliases=['Areyougood','howgoodareyou','howgood','Howgoodareyou','Howgood'])
 async def areyougood(ctx):
-    await ctx.send(f'Bruh, I am the best bot in the world. I am way better than you and than anyone. Nobody will ever beat me in my amazingness.')
+    await ctx.send(f'Bruh, I am the best bot in the world. I am way better than you and than anyone. Nobody will ever beat me in my amazingness, How dare you even question me?.')
 
 @client.command(aliases=['whoyou','whoru','Whoareyou','introduceyourself','whoare'])
 async def whoareyou(ctx):
