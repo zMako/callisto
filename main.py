@@ -1352,7 +1352,7 @@ async def woah(ctx):
 
 @client.command()
 async def reverse(ctx, *, reversed):
-    if "@<" in reversed or "ereh@" in reversed or "enoyreve@" in reversed:
+    if "@<" in reversed or "ereh@" in reversed or "enoyreve@" in reversed or "reggin" in reversed:
         await ctx.send("imagine trying to exploit bugs, couldn't be mako smh.")
     else:
         reverses = reversed[::-1]
