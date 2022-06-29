@@ -20,7 +20,7 @@ import pytemperature
 
 cogs = [levelsys]
 
-myclient = pymongo.MongoClient("mongodb+srv://Mako:Mko-3270@cluster0.oigbj.mongodb.net/MakoBot?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://<username>:<password>@cluster0.oigbj.mongodb.net/MakoBot?retryWrites=true&w=majority")
 mydb = myclient["makobotdb"]
 mainbank = mydb["bank"]
 enter = mydb["enterpreneurship"]
@@ -195,7 +195,7 @@ class helpcommand(menus.Menu):
 
 
 client = commands.Bot(command_prefix = "+", help_command=None, intents=discord.Intents.all())
-TOKEN = 'ODIwNTcwOTE0ODMxODU5NzEy.YE3GNw.jZYQYgV2OYSV2KAlM-TfJTkZ8Q8' #real token doe no leak or bot is ded 💀
+TOKEN = '<token>' #real token doe no leak or bot is ded 💀
 
 
 themainshop = [{"displayname":"🧻 Toilet Paper","name":"toilet_paper","price":1000,"description":"Work as Toilet Paper Handler!","workcom":"+work Toilet Paper"},
